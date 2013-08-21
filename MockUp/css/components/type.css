@@ -1,0 +1,415 @@
+/*==================================================TYPE FROM UTILITIES, GLOBAL==============================================*/
+/*Text */
+*.txtDefault {
+  color: black;
+  font-size: 12px; }
+
+*.txtDefaultBold {
+  color: black;
+  font-size: 12px;
+  font-weight: bold; }
+
+*.txtXSmall {
+  color: black;
+  font-size: 10px; }
+
+*.txtSmall {
+  color: black;
+  font-size: 11px; }
+
+a.txtLarge:link {
+  font-size: 13px;
+  color: black;
+  text-decoration: none; }
+
+a.txtLarge:visited {
+  font-size: 13px;
+  color: black;
+  text-decoration: none; }
+
+a.txtLarge:hover {
+  font-size: 13px;
+  color: black;
+  text-decoration: none; }
+
+a.txtLarge:active {
+  font-size: 13px;
+  color: black;
+  text-decoration: none; }
+
+*.txtWhite {
+  color: #FFFFFF; }
+
+*.txtAlBlack {
+  color: #404040; }
+
+*.txtBlack {
+  color: black; }
+
+*.txtGreen {
+  color: green; }
+
+*.txtPurple {
+  color: purple; }
+
+*.txtDkRed {
+  color: #990000; }
+
+*.txtOrange {
+  color: #C87315; }
+
+*.txtDkBlue {
+  color: #000033; }
+
+*.txtGray {
+  color: #999999; }
+
+*.txtDkGray {
+  color: #666666; }
+
+*.txtDkerGray {
+  color: #626267; }
+
+*.txtFontDefault {
+  font-family: Arial; }
+
+*.txtFontVerdana {
+  font-family: Verdana; }
+
+.txtBlue20 {
+  font-size: 20px;
+  color: #76b2ee;
+  font-weight: bold; }
+
+.txtGreen20 {
+  font-size: 20px;
+  color: #7F9C4B;
+  font-weight: bold; }
+
+.txt16 {
+  font-size: 16px; }
+
+.txt8px {
+  font-size: 8px; }
+
+.txt10px {
+  font-size: 10px; }
+
+.txt11px {
+  font-size: 11px; }
+
+.txt12px {
+  font-size: 12px; }
+
+.txt13px {
+  font-size: 13px; }
+
+.txt14px {
+  font-size: 14px; }
+
+.txt16px {
+  font-size: 16px; }
+
+.txt18px {
+  font-size: 18px; }
+
+.txt20px {
+  font-size: 20px; }
+
+.txt22px {
+  font-size: 22px; }
+
+.txt24px {
+  font-size: 24px; }
+
+.txt26px {
+  font-size: 26px; }
+
+.txt28px {
+  font-size: 28px; }
+
+.txt30px {
+  font-size: 30px; }
+
+.txt32px {
+  font-size: 32px; }
+
+.txt34px {
+  font-size: 34px; }
+
+.txt36px {
+  font-size: 36px; }
+
+.txt38px {
+  font-size: 38px; }
+
+.txt40px {
+  font-size: 40px; }
+
+.txt42px {
+  font-size: 42px; }
+
+.txt44px {
+  font-size: 44px; }
+
+.txt46px {
+  font-size: 46px; }
+
+.txt48px {
+  font-size: 48px; }
+
+.txt50px {
+  font-size: 50px; }
+
+.txtEmpBlue {
+  color: #4176A9; }
+
+.txtProGreen {
+  color: #63802f; }
+
+.txtRedishOrange {
+  color: #ca6400; }
+
+.txtBlue {
+  color: #76B2EE; }
+
+.txtBlue4176A9 {
+  color: #4176A9; }
+
+.textBold {
+  font-weight: bold; }
+
+*.txtbold {
+  font-weight: bold; }
+
+.TextIndicator_TextBox1 {
+  background-color: Gray;
+  color: White;
+  font-family: Arial;
+  font-size: x-small;
+  font-style: italic;
+  padding: 2px 3px 2px 3px; }
+
+.txtBlue6791BB {
+  color: #6791BB; }
+
+.txtBlue274665 {
+  color: #274665; }
+
+*.standardText {
+  font-size: 12px;
+  color: #000000; }
+
+*.fadedText {
+  font-size: 12px;
+  color: #CCCCCC; }
+
+*.grayNoAvailable {
+  color: #999999;
+  font-size: 12px;
+  font-style: italic; }
+
+*.ltGrayNoAvailable {
+  color: #666666;
+  font-size: 12px;
+  font-style: italic; }
+
+*.txtDkGray333 {
+  color: #333333; }
+
+.txtGray666 {
+  color: #666666; }
+
+.txt333 {
+  color: #333333; }
+
+.txt444 {
+  color: #444444; }
+
+.txt666 {
+  color: #666666; }
+
+.txt999 {
+  color: #999999; }
+
+.txtCCC {
+  color: #CCCCCC; }
+
+.txtGreenabc {
+  color: #abcc15; }
+
+.txtErrorMsg {
+  color: #c8731f; }
+
+.largeH1 {
+  font-size: 40px;
+  margin: 25px 0 20px -30px;
+  color: #444; }
+
+.centered {
+  text-align: center; }
+
+h1.centered {
+  font-size: 28px;
+  font-weight: 500; }
+
+.txtCCC {
+  color: #CCC; }
+
+.txt999 {
+  color: #999; }
+
+.txt666 {
+  color: #666; }
+
+.txt444 {
+  color: #444; }
+
+.txt333 {
+  color: #333; }
+
+.txtGreenB8D33C {
+  color: #B8D33C; }
+
+.txtDkRed {
+  color: #990000; }
+
+.txtdkRed {
+  color: #900; }
+
+/*Links */
+a {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:hover {
+  color: #3f88a0;
+  text-decoration: underline;
+  cursor: pointer; }
+
+a.btn {
+  text-decoration: none; }
+
+a.BlueLinksnu {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a.BlueLinksnu {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:visited.BlueLinksnu {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:hover.BlueLinksnu {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a.BlueLinks {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:visited.BlueLinks {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:hover.BlueLinks {
+  color: #3f88a0;
+  text-decoration: underline; }
+
+a:active.BlueLinks {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a.BlueLinksNoUnderline {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:visited.BlueLinksNoUnderline {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:hover.BlueLinksNoUnderline {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:active.BlueLinksNoUnderline {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a.BlueLinksNU {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:visited.BlueLinksNU {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:hover.BlueLinksNU {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a:active.BlueLinksNU {
+  color: #3f88a0;
+  text-decoration: none; }
+
+a.GrayLinks {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px; }
+
+a:visited.GrayLinks {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px; }
+
+a:hover.GrayLinks {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px; }
+
+a:active.GrayLinks {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px; }
+
+a.GrayLinksDisable {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: default; }
+
+a:hover.GrayLinksDisable {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: default; }
+
+a:active.GrayLinksDisable {
+  color: #666666;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: default; }
+
+nav h2 {
+  display: none; }
+
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0; }
+
+h3 {
+  color: #A7A08C !important;
+  font-family: 'Open Sans',sans-serif !important;
+  margin-top: -10px !important;
+  -moz-text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: none;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: none;
+  font-smoothing: antialiased; }
+

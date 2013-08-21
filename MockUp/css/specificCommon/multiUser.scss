@@ -1,0 +1,560 @@
+body 
+{
+    background:#F5F5F5;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.darker
+{
+    color:#666;
+}
+
+.flex
+{
+    width:100% !important;
+    max-width:984px;
+}
+
+.switchboard
+{
+    width:55%;
+    min-width:320px;
+    margin:60px auto 0 auto;
+    font-family:Open Sans, Arial, Sans-Serif;
+    -moz-text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;
+   text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;
+
+    -webkit-padding-start: 0;
+}
+
+.defaultCkGreen{color:#83bc31 !important;}
+.defaultCkGreen:hover{color:#567B00 !important; text-decoration:none !important;}
+
+.ownerName{max-width:270px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:inline-block; vertical-align:bottom;}
+
+h1.openSans
+{
+    font-family:Open Sans, Arial, Sans-Serif;
+    font-weight:600;
+    font-size:30px;
+    line-height:30px;
+    -moz-text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;
+   text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;
+}
+
+.switchboard > a
+{
+    padding:0 5px 10px 0;
+    display:block;
+    float:right;
+    font-size:1em;
+}
+
+.switchBoardSwitch
+{
+    width:15px;
+    height:15px;
+    display:inline-block;
+    background:#ddd;
+    border:1px solid #ccc;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    border-radius:100%;
+}
+
+.switchBoardSwitch:focus
+{
+    background:#38869C;
+}
+
+.switchboard #saveSettings
+{
+    margin-top:10px;
+    display:none;
+    float:left;
+}
+
+.switchboard h1
+{
+    padding-bottom:25px;
+    text-align:center;
+}
+
+.switchboard li
+{
+    text-align:left;
+    list-style:none;
+    border:1px solid #ddd;
+    background:white;
+    padding:15px 15px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin-top:-1px;
+    cursor:pointer;
+    position:relative;
+}
+
+.switchboard li:hover
+{
+    background:#fcfcfc;
+}
+
+.inviteEvent
+{
+    text-align:center;
+    margin-top:20px;
+    
+}
+
+.inviteEvent h1
+{
+    font-size:32px;
+    margin:30px 0 10px 0;
+}
+
+.inviteEvent p
+{
+    font-size:16px;
+    margin:10px 0;
+}
+
+.inviteExpiredflexImg
+{
+    max-width:200px;
+    width:100%;
+    margin-top:30px;
+}
+
+.inviteCancelledflexImg
+{
+    max-width:407px;
+    width:100%;
+    margin-top:30px;
+}
+
+.switchboard li input[type="button"]
+{
+    width:100% !important;
+    height:100% !important;
+    display:block;
+    position:absolute !important;
+    top:0;
+    left:0;
+    opacity:0;
+}
+
+.switchboard li.activeUser
+{
+    background:#eee;
+}
+
+.ownerTop
+{
+    -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+
+.switchboard li img
+{
+    float:left;
+    width:11.5%;
+    max-width:48px;
+
+}
+
+.switchboard li .SwitchName
+{
+    float:left;
+    
+    padding:0px 0 0 10px;
+    width:88.5%;
+}
+
+.switchboard li .SwitchName p
+{
+    color:#999;
+    margin:0;
+    line-height:20px;
+}
+
+
+.switchboard li .SwitchSettings
+{
+    float:right;
+    padding-top:0;
+    position:absolute;
+    right:0;
+    z-index:999;
+    margin:-6px 10px 0 0;
+    text-align:right;
+}
+
+
+
+.SwitchSettings > a{color:#ccc;}
+
+.SwitchSettings > a:hover{color:#666; text-decoration:none !important}
+
+
+.SwitchSettings > a, .settings > a span{display:inline-block; margin-left:8px;}
+
+.switchboard li .SwitchSettings > span
+{
+    display:inline-block;
+}
+
+.switchboard li .SwitchSettings input[type='radio']
+{
+    display:inline-block;
+}
+
+.switchboard li .SwitchSettings label
+{
+    display:inline-block;
+    padding-left:5px;
+}
+
+.switchboard li .SwitchSettings a
+{
+    
+}
+
+.switchboard #continueLogin
+{
+    float:right;
+    margin-top:10px;
+    display:none;
+}
+
+.switchboard li .SwitchName strong
+{
+    color:#666;
+    font-size:1.1em;
+}
+
+/* MULTIUSER */
+
+
+.teamPage h2
+{
+    font-size:18px;
+}
+
+#members ul
+        {
+            margin:0;
+            padding:0;
+        }
+        
+        li.member
+        {
+            
+            max-width:155px;
+        margin:0 3% 2% 0;
+        float:left;
+        background:none;
+        padding:7px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        text-align:center;
+        
+        position:relative;
+        font-size:12px;
+        list-style:none;
+       
+        }
+        
+        .updatePhoto
+        {
+            display:none;
+        }
+        
+        .member .txt999
+        {
+            margin:2px 0;
+        }
+        
+        li.member .memberName
+        {
+            width:100%;
+            max-width:100%;
+            display:block;
+            margin:4px 0 0 0;
+            white-space:nowrap;
+            overflow:hidden;
+    text-overflow: ellipsis;
+    font-weight:700;
+        }
+        
+        .joinedDate{margin:0; color:#999; font-style:italic;}
+        
+        .member img
+        {
+            
+            max-width:100%;
+        }
+        
+
+        
+        .member .btn-group
+        {
+            position:absolute;
+            top:12px;
+            right:12px;
+           display:none;
+            text-align:left;
+        }
+        
+        
+        .inviteSelect
+    {
+        width:48%;
+        padding:20px 0 20px 0;
+        text-align:center;
+        background:#fefefe;
+        border:1px solid #eee;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        float:left;
+        margin: 2% 2% 10px 0%;
+    }
+    
+    .inviteSelect img
+    {
+        max-height:80px;
+        margin-bottom:7px;
+    }
+    
+    .selectUser
+    {
+        display:none;
+    }
+    
+     .existUser
+     {
+         padding:0;
+         margin:0;
+     }
+    
+    .existUser li
+    {
+        width:22%;
+        margin:0 3% 2% 0;
+        float:left;
+        background:#fff;
+        padding:7px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+        border:1px solid #eee;
+        text-align:center;
+        font-weight:bold;
+        position:relative;
+    }
+    
+    .existUser li:nth-child(4n)
+    {
+        
+    }
+    
+    .existUser li p
+    {
+        margin-bottom:0;
+    }
+        
+    
+    .existUser li img
+    {
+        width:100%;
+    }
+    
+    .checkUser
+    {
+        position:absolute;
+        bottom:25px;
+        right:5px;
+        width:20px;
+        height:20px;
+        background:url(/images/buttons/check2.png) center center no-repeat;
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        border-radius:50px;
+        border:1px solid #ccc;
+    }
+    
+    .inviteNewUser
+    {
+        display:none;
+    }
+    
+    div.newUserAdd h2
+    {
+        font-weight:bold;
+        font-style:italic;
+        margin-top:15px;
+        font-size:16px;
+        line-height:26px;
+        color:#333 !important;
+    } 
+    
+    div.newUserAdd h2 span
+    {
+        font-style:normal;
+        color:white;
+        background:#3f88a0;
+        -webkit-border-radius:50px;
+        -moz-border-radius:50px;
+        border-radius:50px;
+        width:30px;
+        text-align:center;
+        padding:5px 0 4px 0;
+        font-size:15px;
+        width:24px;
+        display:inline-block;
+        line-height:15px;
+    }
+    
+    div.newUserAdd .newUserPanel
+    {
+        margin:15px 0 15px 40px;
+    }
+    
+    div.newUserAdd .newUserPanel ul
+    {
+        padding:0;
+        margin:0;
+    }
+    
+    div.newUserAdd .styledCheck
+    {
+        margin-right:15px;
+    }
+    
+    div.newUserAdd .roleCheck
+    {
+        padding:0 0 25px;
+    
+    }
+    
+    
+    
+    div.newUserAdd .projectAdd ul
+    {
+        background:#efefef;
+        padding:10px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+        height:200px;
+        width:400px;
+        margin-bottom:10px;
+    }
+    
+    div.newUserAdd .projectAdd li
+    {
+        margin:0 0 7px 0;
+    }
+    
+    div.newUserAdd .projectAdd input[type="checkbox"]
+    {
+        margin-right:8px;
+    }
+    
+    div.newUserAdd .projectAdd li span
+    {
+        color:#999;
+    }
+    
+     div.newUserAdd .send
+     {
+         margin:40px 0 0 0;
+     }
+     
+    div.newUserAdd .send p
+    {
+          padding:10px 0;
+    }
+    
+    div.chooseSelect
+    {
+        float:right;
+        margin-right:3%;
+        padding-top:12px;
+    }
+    
+    h1.floatH1
+    {
+        float:left;
+    }
+    
+    .existUser li.activeCheck
+    {
+        background:#ccc;
+    }
+    
+    .existUser li.activeCheck .checkUser
+    {
+        background:url(/images/buttons/check.png) center center no-repeat;
+    }
+    
+    .imgWrap
+    {
+        width:128px;
+        height:auto;
+        min-height:128px;
+        background:#efefef;
+        margin:0 auto;
+    }
+    
+    .full{width:100%;}
+    
+    #muHead{margin:15px 0 30px 0;}
+    
+    #muHead a{float:right; font-size:14px !important;}
+    
+    #muHead p, #muHead h1{width:74%; float:left; margin:7px 0;}
+    
+    #muHead h1{font-family:'Open Sans', sans-serif; font-size:2em; font-weight:400; -moz-text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;
+   text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-font-smoothing:none; font-smoothing:antialiased;}
+    
+    #muHead p{font-size:16px; color:#666; line-height:22px;}
+    
+    .tri{margin:0; padding:0;}
+    
+    .tri li{width:32%; float:left; margin-right:2%; height: 475px; text-align:center; padding:2%; list-style:none; background:#fff; border:1px solid #eee; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+    
+    .tri li:nth-child(3n){margin:0;}
+    
+    .tri li p{text-align:left; color:#666; font-size:14px; line-height:20px;}
+    
+    .tri li h3{margin-bottom:3px; color:#666; font-size:20px;}
+    
+    .tri li p.desc{text-align:center; font-style:italic; color:#999; margin:3px 0;}
+    
+    .quad{margin:0; padding:0;}
+    
+    .quad li{width:23%; float:left; margin-right:2.6%; padding:2%; height: 525px; text-align:center; list-style:none; background:#fff; border:1px solid #eee; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; }
+    
+    .quad li:nth-child(4n){margin:0;}
+    
+    .quad li p{text-align:left; color:#666; font-size:14px; line-height:20px;}
+    
+    .quad li h3{margin-bottom:3px; color:#666; font-size:20px;}
+    
+    .quad li p.desc{text-align:center; font-style:italic; color:#999; margin:3px 0;}
+    
+    .deleteCover{position:absolute; background:rgba(0,0,0, .7); top:7px; width:128px; color:White;}
+    
+    .right-each-row h3{text-transform:none;}

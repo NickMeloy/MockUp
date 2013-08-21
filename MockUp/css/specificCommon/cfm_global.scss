@@ -1,0 +1,205 @@
+/*======================================CFM GLOBAL STYLES INHERITED FROM STYLE.CSS============================*/
+		td 			{   font-size: 12px; color: #000000 }
+
+		/* These are id selectors, please use class selectors instead. see below */
+		#navspacer 		{   color: #bfbfbf; font-size: 10px; }
+		#pagetitle 		{   color: #000000; font-size: 24px; }
+		#helptitle 		{   color: #000000; font-size: 16px; font-weight: bold; }
+		#orange 		{   color: #CA6400; font-size: 12px; }
+		#smorange 		{   color: #CA6400; font-size: 10px; }
+		#dkred13		{   color: #990000; font-size: 13px; }
+		#dkred 			{   color: #990000; font-size: 12px; }
+		#smdkred 		{   color: #990000; font-size: 10px; }
+		#green 			{   color: green; font-size: 12px; }
+		#smgreen 		{   color: green; font-size: 10px; }
+		#dklmgreen 		{   color: #66CC33; font-size: 12px; }
+		#smdklmgreen 	{   color: #66CC33; font-size: 10px; }
+		#btblue 		{   color: #3C8AD7; font-size: 12px; }
+		#smbtblue 		{   color: #3C8AD7; font-size: 10px; }
+		#dkblue 		{   color: #000033; font-size: 12px; }
+		#smdkblue 		{   color: #000033; font-size: 10px; }
+		#dkergray 		{   color: #626267; font-size: 12px; }
+		#smdkergray		{   color: #626267; font-size: 10px; }
+		#dkgray 		{   color: #666666; font-size: 12px; }
+		#smdkgray 		{   color: #666666; font-size: 10px; }
+		#dkgray13 		{   color: #666666; font-size: 13px; }
+		#mgray 			{   color: #999999; font-size: 12px; }
+		#smgray 		{   color: #999999; font-size: 10px; }
+		#almostblack 	{   color: #404040; font-size: 12px; }
+		#smalmostblack 	{   color: #404040; font-size: 10px; }
+		#black 			{   color: #000000; font-size: 12px; }
+		#smblack 		{   color: #000000; font-size: 10px; }
+		#black13 		{   color: #000000; font-size: 13px; }
+		#lgblack 		{   color: #000000; font-size: 19px; }
+		#mblack 		{   color: #000000; font-size: 18px; }
+		#white 			{   color: #ffffff; font-size: 12px; }
+		#smwhite 		{   color: #ffffff; font-size: 10px; }
+		#orangev 		{ font-family: verdana; color: #CA6400; font-size: 12px; }
+		#smorangev 		{ font-family: verdana; color: #CA6400; font-size: 10px; }
+		#dkredv 		{ font-family: verdana; color: #990000; font-size: 12px; }
+		#smdkredv 		{ font-family: verdana; color: #990000; font-size: 10px; }
+		#greenv 		{ font-family: verdana; color: green; font-size: 12px; }
+		#smgreenv 		{ font-family: verdana; color: green; font-size: 10px; }
+		#dkgrayv 		{ font-family: verdana; color: #666666; font-size: 12px; }
+		#smdkgrayv 		{ font-family: verdana; color: #666666; font-size: 10px; }
+		#almostblackv 		{ font-family: verdana; color: #404040; font-size: 12px; }
+		#smalmostblackv 	{ font-family: verdana; color: #404040; font-size: 10px; }
+		#blackv 		{ font-family: verdana; color: #000000; font-size: 12px; }
+		#smblackv 		{ font-family: verdana; color: #000000; font-size: 10px; }
+		#lgblackv 		{ font-family: verdana; color: #000000; font-size: 19px; }
+		#mblackv 		{ font-family: verdana; color: #000000; font-size: 18px; }
+		#whitev 		{ font-family: verdana; color: #ffffff; font-size: 12px; }
+		#smwhitev 		{ font-family: verdana; color: #ffffff; font-size: 10px; }
+		#btbluev 		{ font-family: verdana; color: #3C8AD7; font-size: 12px; }
+		#smbtbluev		{ font-family: verdana; color: #3C8AD7; font-size: 10px; }
+		#dkbluev 		{ font-family: verdana; color: #000033; font-size: 12px; }
+		#smdkbluev		{ font-family: verdana; color: #000033; font-size: 10px; }
+		#blackc 		{ font-family: courier new; color: #000000; font-size: 12px; }
+		#breadcrumbnav 		{ font-family: verdana; color: #666666; font-size: 10px; }
+
+		/* Class selectors - use these!!! */
+		.navspacer 		{   color: #bfbfbf; font-size: 10px; }
+		.pagetitle 		{   color: #B8D33C; font-size: 24px; }
+		.helptitle 		{   color: #000000; font-size: 16px; font-weight: bold; }
+		.purple 		{   color: purple; font-size: 12px; }
+		.orange 		{   color: #CA6400; font-size: 12px; }
+		.smorange 		{   color: #CA6400; font-size: 10px; }
+		.dkred13		{   color: #990000; font-size: 13px; }
+		.dkred 			{   color: #990000; font-size: 12px; }
+		.smdkred 		{   color: #990000; font-size: 10px; }
+		.green 			{   color: green; font-size: 12px; }
+		.smgreen 		{   color: green; font-size: 10px; }
+		.dklmgreen 		{   color: #66CC33; font-size: 12px; }
+		.smdklmgreen 		{   color: #66CC33; font-size: 10px; }
+		.btblue 		{   color: #3C8AD7; font-size: 12px; }
+		.smbtblue 		{   color: #3C8AD7; font-size: 10px; }
+		.dkblue 		{   color: #000033; font-size: 12px; }
+		.smdkblue 		{   color: #000033; font-size: 10px; }
+		.dkergray 		{   color: #626267; font-size: 12px; }
+		.smdkergray		{   color: #626267; font-size: 10px; }
+		.dkgray 		{   color: #666666; font-size: 12px; }
+		.smdkgray 		{   color: #666666; font-size: 10px; }
+		.dkgray13 		{   color: #666666; font-size: 13px; }
+		.mgray 			{   color: #999999; font-size: 12px; }
+		.smgray 		{   color: #999999; font-size: 10px; }
+		.almostblack13 		{   color: #404040; font-size: 13px; }
+		.almostblack 		{   color: #404040; font-size: 12px; }
+		.smalmostblack 		{   color: #404040; font-size: 10px; }
+		.black 			{   color: #000000; font-size: 12px; }
+		.smblack 		{   color: #000000; font-size: 10px; }
+		.black13 		{   color: #000000; font-size: 13px; }
+		.black14 		{   color: #000000; font-size: 14px; }
+		.lgblack 		{   color: #000000; font-size: 19px; }
+		.mblack 		{   color: #000000; font-size: 18px; }
+		.white 			{   color: #ffffff; font-size: 12px; }
+		.smwhite 		{   color: #ffffff; font-size: 10px; }
+		.orangev 		{ font-family: verdana; color: #CA6400; font-size: 12px; }
+		.smorangev 		{ font-family: verdana; color: #CA6400; font-size: 10px; }
+		.dkredv 		{ font-family: verdana; color: #990000; font-size: 12px; }
+		.smdkredv 		{ font-family: verdana; color: #990000; font-size: 10px; }
+		.greenv 		{ font-family: verdana; color: green; font-size: 12px; }
+		.smgreenv 		{ font-family: verdana; color: green; font-size: 10px; }
+		.dkgrayv 		{ font-family: verdana; color: #666666; font-size: 12px; }
+		.smdkgrayv 		{ font-family: verdana; color: #666666; font-size: 10px; }
+		.almostblackv 		{ font-family: verdana; color: #404040; font-size: 12px; }
+		.smalmostblackv 	{ font-family: verdana; color: #404040; font-size: 10px; }
+		.blackv 		{ font-family: verdana; color: #000000; font-size: 12px; }
+		.smblackv 		{ font-family: verdana; color: #000000; font-size: 10px; }
+		.lgblackv 		{ font-family: verdana; color: #000000; font-size: 19px; }
+		.mblackv 		{ font-family: verdana; color: #000000; font-size: 18px; }
+		.whitev 		{ font-family: verdana; color: #ffffff; font-size: 12px; }
+		.smwhitev 		{ font-family: verdana; color: #ffffff; font-size: 10px; }
+		.btbluev 		{ font-family: verdana; color: #3C8AD7; font-size: 12px; }
+		.smbtbluev		{ font-family: verdana; color: #3C8AD7; font-size: 10px; }
+		.dkbluev 		{ font-family: verdana; color: #000033; font-size: 12px; }
+		.smdkbluev		{ font-family: verdana; color: #000033; font-size: 10px; }
+		.blackc 		{ font-family: courier new; color: #000000; font-size: 12px; }
+		.breadcrumbnav 		{ font-family: verdana; color: #666666; font-size: 10px; }
+		.disabled 		{ color:#808080; background-color:#d4d0c8; }
+		a.navtop 		{   color: #ffffff; font-size: 12px; text-decoration: none; }
+		a:hover.navtop 		{   color: #ffffff; font-size: 12px; text-decoration: none; }
+		a.pagesubnav 		{ font-family: verdana,arial; color: #666666; font-size: 10px; text-decoration: none; }
+		a:hover.pagesubnav 	{ font-family: verdana,arial; color: #ca6400; font-size: 10px; text-decoration: underline; }
+		pagesubnav2 		{ cursor:arrow; background-color: #ebebeb; text-align:center; font-weight:normal; text-decoration:none; }
+		pagesubnav3 		{ cursor:pointer; background-color: #3c8ad7; text-align:center; font-weight:normal; text-decoration:none; }
+		a.blacknavlink 		{ font-family: verdana; color: #ffffff; font-size: 10px; text-decoration: none }
+		a:hover.blacknavlink 	{ font-family: verdana; color: #ffffff; font-size: 10px; text-decoration: underline; }
+		.navblue 		{ cursor:arrow; background-color: #3C8AD7; text-align:center; font-weight:normal; text-decoration:none;}
+		.navblueon 		{ cursor:pointer; background-color: #00a8ff; text-align:center; font-weight:normal; text-decoration:none;}
+		.navbluespacer 		{ background-color: #295c90; }
+		.navbluespacer2 	{ background-color: #1E7BD7; }
+		a.nodec 		{ text-decoration: none !important; }
+		a.linkbtblue 		{   color: #3D88D6; font-size: 12px; text-decoration: underline }
+		a:hover.linkbtblue 	{   color: #3D88D6; font-size: 12px; text-decoration: none }
+		a.smlinkbtblue 		{   color: #3D88D6; font-size: 10px; text-decoration: underline }
+		a:hover.smlinkbtblue 	{   color: #3D88D6; font-size: 10px; text-decoration: none }
+		a.linkbtblue 		{   color: #3D88D6; font-size: 12px; text-decoration: none }
+		a:hover.linkbtblue 	{   color: #3D88D6; font-size: 12px; text-decoration: underline }
+		a.almostbktoorng13 	{   color: #404040; font-size: 13px; text-decoration: none }
+		a:hover.almostbktoorng13 {   color: #CA6400; font-size: 13px; text-decoration: underline }
+		a:visited.almostbktoorng13 	{   color: #404040; font-size: 13px; text-decoration: none }
+		a.udkgraytoorng 	{   color: #808080; font-size: 12px; text-decoration: underline }
+		a:hover.udkgraytoorng 	{   color: #CA6400; font-size: 12px; text-decoration: none }
+		a.ualmostblacktoorng 	{   color: #606060; font-size: 12px; text-decoration: underline }
+		a:hover.ualmostblacktoorng {   color: #CA6400; font-size: 12px; text-decoration: none }
+		a:visited.ualmostblacktoorng 	{   color: #606060; font-size: 12px; text-decoration: underline }
+		a.almostbktoorng 	{   color: #404040; font-size: 12px; text-decoration: none }
+		a:visited.almostbktoorng 	{   color: #404040; font-size: 12px; text-decoration: none }
+		a:hover.almostbktoorng 	{   color: #CA6400; font-size: 12px; text-decoration: underline }
+		a.white 		{   color: #FFFFFF; font-size: 12px; text-decoration: none }
+		a:visited.white 		{   color: #FFFFFF; font-size: 12px; text-decoration: none }
+		a:hover.white 		{   color: #FFFFFF; font-size: 12px; text-decoration: underline }
+		a.smwhitev 		{ font-family: verdana, arial, sans-serif; color: #FFFFFF; font-size: 10px; text-decoration: none }
+		a:hover.smwhitev 	{ font-family: verdana, arial, sans-serif; color: #FFFFFF; font-size: 10px; text-decoration: underline }
+		a.smalmostbktoorng 	{   color: #404040; font-size: 10px; text-decoration: none }
+		a:hover.smalmostbktoorng {   color: #CA6400; font-size: 10px; text-decoration: underline }
+		a.bktoorng 		{   color: #000000; font-size: 12px; text-decoration: none }
+		a:hover.bktoorng 	{   color: #CA6400; font-size: 12px; text-decoration: underline }
+		a.ubktoorng 		{   color: #000000; font-size: 12px; text-decoration: underline }
+		a:hover.ubktoorng 	{   color: #CA6400; font-size: 12px; text-decoration: underline }
+		a.bktoorng13 		{   color: #000000; font-size: 13px; text-decoration: none }
+		a:visited.bktoorng13 		{   color: #000000; font-size: 13px; text-decoration: none }
+		a:hover.bktoorng13 	{   color: #CA6400; font-size: 13px; text-decoration: underline }
+		a.linkmorange 		{   color: #CA6400; font-size: 12px; text-decoration: none }
+		a:hover.linkmorange 	{   color: #CA6400; font-size: 12px; text-decoration: underline }
+		a.smlinkorange 		{   color: #CA6400; font-size: 10px; text-decoration: none }
+		a:hover.smlinkorange 	{   color: #CA6400; font-size: 10px; text-decoration: underline }
+		a.smulinkorange 	{   color: #CA6400; font-size: 10px; text-decoration: underline }
+		a:hover.smulinkorange 	{   color: #CA6400; font-size: 10px; text-decoration: none }
+		a.smogtoblv 		{ font-family: verdana, sans-serif; color: #CA6400; font-size: 10px; text-decoration: none }
+		a:hover.smogtoblv 	{ font-family: verdana, sans-serif; color: #3D88D6; font-size: 10px; text-decoration: none }
+		.form 			{ background-color: #ffffff; border-bottom:1px solid #999999; border-right:1px solid #999999; border-top:1px solid #999999; border-left:1px solid #999999;   color: #6d6b6b; }
+		.buttonsm 		{ font-family: arial,sans-serif; font-size: 11px; cursor: hand; }
+		.sort 			{ font-family: arial,sans-serif; margin: 0px 0px 0px 0px; font-size:11px; background: white; color:#000000; }
+		.bghighlight 		{ background: #ffffcc; }
+		.bgffffff 		{ background: #ffffff; }
+		.bgededed 		{ background: #ededed; }
+		ul.smsq 		{ list-style: none; margin-left: 0; padding-left: 2em; text-indent: -.7em; }
+		li.sq 			{ list-style-type: square; margin-left: 20px; }
+
+
+
+		.roundTop {
+			background-image: url(/images/round_trans_tr.gif);
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+		.roundBottom {
+			background-image: url(/images/round_trans_br.gif);
+			background-repeat: no-repeat;
+			background-position: right bottom;
+		}
+		.linklabel {
+			position: absolute;
+			z-index: 500;
+			padding-left: 2px;
+			padding-right: 2px;
+			color: #FFF;
+			border: solid 1px #000;
+			background-color: #B5494A;
+			font-size: 9px;
+			font-family: verdana;
+		}
+
+
+		/*move to refresh*/

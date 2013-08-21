@@ -1,0 +1,47 @@
+/*================================FONTS FROM UTILITIES=================================================*/
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icons/icomoon.eot");
+  src: url("fonts/icons/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icons/icomoon.woff") format("woff"), url("fonts/icons/icomoon.ttf") format("truetype"), url("fonts/icons/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "museo_slab";
+  src: url("fonts/Museo Slab/museo_slab_300-webfont.eot");
+  src: url("fonts/Museo Slab/museo_slab_300-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Museo Slab/museo_slab_300-webfont.woff") format("woff"), url("fonts/Museo Slab/museo_slab_300-webfont.ttf") format("truetype"), url("fonts/Museo Slab/museo_slab_300-webfont.svg#museo_slab") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: "museo_slab";
+  src: url("fonts/Museo Slab/museo_slab_500-webfont.eot");
+  src: url("fonts/Museo Slab/museo_slab_500-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Museo Slab/museo_slab_500-webfont.woff") format("woff"), url("fonts/Museo Slab/museo_slab_500-webfont.ttf") format("truetype"), url("fonts/Museo Slab/museo_slab_500-webfont.svg#museo_slab") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal; }
+
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+

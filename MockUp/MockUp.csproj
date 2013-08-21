@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00B8C997-AFA2-4F26-ACED-760A0DB8F396}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MockUp</RootNamespace>
+    <AssemblyName>MockUp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="css\components\actions.css">
+      <DependentUpon>actions.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\buttons.css">
+      <DependentUpon>buttons.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\dropdown.css">
+      <DependentUpon>dropdown.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\flags.css">
+      <DependentUpon>flags.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\fonts.css">
+      <DependentUpon>fonts.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\forms.css">
+      <DependentUpon>forms.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\grid.css">
+      <DependentUpon>grid.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\headerFooter.css">
+      <DependentUpon>headerFooter.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\jquery.css" />
+    <Content Include="css\components\nav.css">
+      <DependentUpon>nav.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\type.css">
+      <DependentUpon>type.scss</DependentUpon>
+    </Content>
+    <Content Include="css\components\variables.css">
+      <DependentUpon>variables.scss</DependentUpon>
+    </Content>
+    <Content Include="css\emp.css">
+      <DependentUpon>emp.scss</DependentUpon>
+    </Content>
+    <Content Include="css\fonts\fonts.css" />
+    <Content Include="css\fonts\Icons\icomoon-webfont.svg" />
+    <Content Include="css\fonts\Icons\icomoon.dev.svg" />
+    <Content Include="css\fonts\Icons\icomoon.svg" />
+    <Content Include="css\fonts\Museo Sans\museosans-100-webfont.svg" />
+    <Content Include="css\fonts\Museo Sans\museosans-100italic-demo.html" />
+    <Content Include="css\fonts\Museo Sans\museosans-100italic-webfont.svg" />
+    <Content Include="css\fonts\Museo Sans\museosans_500-webfont.svg" />
+    <Content Include="css\fonts\Museo Slab\museo_slab_300-webfont.svg" />
+    <Content Include="css\fonts\Museo Slab\museo_slab_500-demo.html" />
+    <Content Include="css\fonts\Museo Slab\museo_slab_500-webfont.svg" />
+    <Content Include="css\global.css">
+      <DependentUpon>global.scss</DependentUpon>
+    </Content>
+    <Content Include="css\legacy_global.css">
+      <DependentUpon>legacy_global.scss</DependentUpon>
+    </Content>
+    <Content Include="css\pro.css">
+      <DependentUpon>pro.scss</DependentUpon>
+    </Content>
+    <Content Include="css\reset.css">
+      <DependentUpon>reset.scss</DependentUpon>
+    </Content>
+    <Content Include="css\signedOut.css">
+      <DependentUpon>signedOut.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\account.css">
+      <DependentUpon>account.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\cfm_global.css">
+      <DependentUpon>cfm_global.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\dashboard.css">
+      <DependentUpon>dashboard.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\multiUser.css">
+      <DependentUpon>multiUser.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\pm.css">
+      <DependentUpon>pm.scss</DependentUpon>
+    </Content>
+    <Content Include="css\specificCommon\project.css">
+      <DependentUpon>project.scss</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="js\jquery-1.4.1-vsdoc.js" />
+    <Content Include="js\jquery-1.4.1.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="Manage\manageTemplate.htm" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\newGuru\fonts\" />
+    <Folder Include="css\newGuru\specific\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\components\actions.scss" />
+    <None Include="css\components\buttons.scss" />
+    <None Include="css\components\dropdown.scss" />
+    <None Include="css\components\flags.scss" />
+    <None Include="css\components\fonts.scss" />
+    <None Include="css\components\forms.scss" />
+    <None Include="css\components\grid.scss" />
+    <None Include="css\components\headerFooter.scss" />
+    <None Include="css\components\nav.scss" />
+    <None Include="css\components\type.scss" />
+    <None Include="css\components\variables.scss" />
+    <None Include="css\emp.scss" />
+    <None Include="css\fonts\Icons\icomoon-webfont.eot" />
+    <None Include="css\fonts\Icons\icomoon-webfont.ttf" />
+    <None Include="css\fonts\Icons\icomoon-webfont.woff" />
+    <None Include="css\fonts\Icons\icomoon.eot" />
+    <None Include="css\fonts\Icons\icomoon.otf" />
+    <None Include="css\fonts\Icons\icomoon.ttf" />
+    <None Include="css\fonts\Icons\icomoon.woff" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-100.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-100Italic.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-300.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-300Italic.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-700Italic.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans-900Italic.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans_500.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans_700.otf" />
+    <None Include="css\fonts\Museo Sans\font-weights\MuseoSans_900.otf" />
+    <None Include="css\fonts\Museo Sans\museosans-100-webfont.eot" />
+    <None Include="css\fonts\Museo Sans\museosans-100-webfont.ttf" />
+    <None Include="css\fonts\Museo Sans\museosans-100-webfont.woff" />
+    <None Include="css\fonts\Museo Sans\museosans-100italic-webfont.eot" />
+    <None Include="css\fonts\Museo Sans\museosans-100italic-webfont.ttf" />
+    <None Include="css\fonts\Museo Sans\museosans-100italic-webfont.woff" />
+    <None Include="css\fonts\Museo Sans\museosans_500-webfont.eot" />
+    <None Include="css\fonts\Museo Sans\museosans_500-webfont.ttf" />
+    <None Include="css\fonts\Museo Sans\museosans_500-webfont.woff" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_100.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_1000.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_1000italic.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_100italic.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_300.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_300italic.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_500.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_500italic.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_700.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_700italic.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_900.otf" />
+    <None Include="css\fonts\Museo Slab\font-repository\Museo_Slab_900italic.otf" />
+    <None Include="css\fonts\Museo Slab\museo_slab_300-webfont.eot" />
+    <None Include="css\fonts\Museo Slab\museo_slab_300-webfont.ttf" />
+    <None Include="css\fonts\Museo Slab\museo_slab_300-webfont.woff" />
+    <None Include="css\fonts\Museo Slab\museo_slab_500-webfont.eot" />
+    <None Include="css\fonts\Museo Slab\museo_slab_500-webfont.ttf" />
+    <None Include="css\fonts\Museo Slab\museo_slab_500-webfont.woff" />
+    <Content Include="css\fonts\Web.config" />
+    <None Include="css\global.scss" />
+    <None Include="css\legacy_global.scss" />
+    <None Include="css\newGuru\components\forms.scss" />
+    <None Include="css\newGuru\components\fonts.scss" />
+    <None Include="css\newGuru\components\responsive.scss" />
+    <None Include="css\newGuru\components\headerfooter.scss" />
+    <None Include="css\newGuru\components\nav.scss" />
+    <None Include="css\newGuru\components\buttons.scss" />
+    <None Include="css\newGuru\components\type.scss" />
+    <None Include="css\newGuru\components\variables.scss" />
+    <None Include="css\newGuru\hire.scss" />
+    <None Include="css\newGuru\manage.scss" />
+    <None Include="css\newGuru\pay.scss" />
+    <None Include="css\newGuru\global.scss" />
+    <None Include="css\pro.scss" />
+    <None Include="css\reset.scss" />
+    <None Include="css\signedOut.scss" />
+    <None Include="css\specificCommon\account.scss" />
+    <None Include="css\specificCommon\cfm_global.scss" />
+    <None Include="css\specificCommon\dashboard.scss" />
+    <None Include="css\specificCommon\multiUser.scss" />
+    <None Include="css\specificCommon\pm.scss" />
+    <None Include="css\specificCommon\project.scss" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55072</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

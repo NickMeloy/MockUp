@@ -1,0 +1,110 @@
+/*===============================================GRID=======================================================*/
+
+/*grid scaffolding*/
+.row {
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  
+  
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  margin-left: 24px;
+}
+.container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 984px;
+}
+.span12 {
+  width: 984px;
+}
+.span11 {
+  width: 900px;
+}
+.span10 {
+  width: 816px;
+}
+.span9 {
+  width: 732px;
+}
+.span8 {
+  width: 648px;
+}
+.span7 {
+  width: 564px;
+}
+.span6 {
+  width: 480px;
+}
+.span5 {
+  width: 396px;
+}
+.span4 {
+  width: 312px;
+}
+.span3 {
+  width: 228px;
+}
+.span2 {
+  width: 144px;
+}
+.span1 {
+  width: 60px;
+}
+.offset12 {
+  margin-left: 1032px;
+}
+.offset11 {
+  margin-left: 948px;
+}
+.offset10 {
+  margin-left: 864px;
+}
+.offset9 {
+  margin-left: 780px;
+}
+.offset8 {
+  margin-left: 696px;
+}
+.offset7 {
+  margin-left: 612px;
+}
+.offset6 {
+  margin-left: 528px;
+}
+.offset5 {
+  margin-left: 444px;
+}
+.offset4 {
+  margin-left: 360px;
+}
+.offset3 {
+  margin-left: 276px;
+}
+.offset2 {
+  margin-left: 192px;
+}
+.offset1 {
+  margin-left: 108px;
+}
+
+.container-fluid {
+  padding-right: 24px;
+  padding-left: 24px;
+  *zoom: 1;
+}
+.container-fluid:before,
+.container-fluid:after {
+  display: table;
+  content: "";
+}
+.container-fluid:after {
+  clear: both;
+}

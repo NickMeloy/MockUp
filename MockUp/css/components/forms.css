@@ -1,0 +1,790 @@
+/*===============================================FORMS=======================================================*/
+.formTitle {
+  color: #333333;
+  font-size: 18px;
+  margin: 30px 0 10px; }
+
+div.errorMsg {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px 3px 3px 3px;
+  margin: 20px 0; }
+
+div.errorMsg div {
+  background: none repeat scroll 0 0 #FDF4C1;
+  border-radius: 3px 3px 3px 3px;
+  color: #444444;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+  text-shadow: 0 1px 1px #FFFFFF; }
+
+input:invalid, input:-moz-ui-invalid {
+  box-shadow: none;
+  outline: medium none; }
+
+.inputSec {
+  margin-top: 5px;
+  position: relative; }
+
+.inputTitle {
+  color: #666666;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+textarea.txtInput {
+  background: none repeat scroll 0 0 #FCFCFC;
+  color: #333333;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px 10px 5px;
+  width: 90%; }
+
+select.txtInput {
+  background: none repeat scroll 0 0 #FCFCFC;
+  color: #333333;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 10px 10px 5px;
+  width: 95.5% !important; }
+
+input.txtInput:invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+textarea.txtInput:invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+select.txtInput:invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+input.txtInput.invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+textarea.txtInput.invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+select.txtInput.invalid {
+  background: none repeat scroll 0 0 #FDF4C1;
+  color: #990000; }
+
+input.txtInput:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #333333; }
+
+textarea.txtInput:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #333333; }
+
+select.txtInput:focus {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #333333; }
+
+select.txtInput {
+  color: #CCCCCC;
+  font-weight: normal; }
+
+select.txtInput option {
+  color: #333333;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold; }
+
+select.txtInput option.selectFirst {
+  color: #CCCCCC;
+  font-weight: normal; }
+
+select.txtInput.selectChanged {
+  color: #333333;
+  font-weight: bold; }
+
+.helpTxt {
+  background: none repeat scroll 0 0 #77BED6;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  display: inline;
+  margin: 9px 0 0 25px;
+  min-width: 14em;
+  max-width: 23em;
+  padding: 5px;
+  position: absolute;
+  z-index: 3; }
+
+.helpTxtBad {
+  background: none repeat scroll 0 0 #990000;
+  border-radius: 5px 5px 5px 5px;
+  color: #FFFFFF;
+  display: inline;
+  margin: 9px 0 0 25px;
+  max-width: 300px;
+  padding: 5px;
+  position: absolute;
+  z-index: 3; }
+
+.helpTxt b {
+  border-color: transparent #77BED6 transparent transparent;
+  border-style: solid;
+  border-width: 5px;
+  margin: 2px 0 0 -14px;
+  position: absolute; }
+
+.helpTxt.badHelp {
+  background: none repeat scroll 0 0 #990000; }
+
+.helpTxt.badHelp b {
+  border-right: 5px solid #990000; }
+
+.helpBelow.badHelp {
+  color: #990000;
+  display: block;
+  padding: 2px; }
+
+.instructionTxt {
+  color: #666666;
+  font-size: 11px; }
+
+.signBad {
+  color: #990000;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 5px;
+  position: absolute;
+  width: 1em; }
+
+.signGood {
+  color: #009900;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 5px;
+  position: absolute;
+  width: 1em; }
+
+.placeHolder {
+  color: #BBB;
+  font-size: 16px;
+  margin: 13px 12px;
+  position: absolute;
+  text-align: left !important;
+  font-weight: 100; }
+
+.placeHolderHov {
+  color: #DDDDDD;
+  font-size: 16px;
+  margin: 13px 12px;
+  position: absolute;
+  text-align: left !important;
+  font-weight: 100; }
+
+.placeHolderBad {
+  color: #990000;
+  font-size: 16px;
+  margin: 13px 12px;
+  position: absolute;
+  text-align: left !important;
+  font-weight: 100; }
+
+label {
+  color: #666666;
+  font-size: 14px;
+  font-weight: bold; }
+
+input[type="radio"]:checked + label {
+  color: #333333;
+  font-weight: bold; }
+
+input[type="checkbox"]:checked + label {
+  color: #333333;
+  /*font-weight: bold;*/ }
+
+.dropCat {
+  margin: 5px 0 0;
+  width: 480px; }
+
+.seeAllList {
+  background: none repeat scroll 0 0 #FAFAFA;
+  margin: 0 0 10px;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+.seeAllList ul {
+  list-style: none outside none;
+  margin: 10px;
+  padding: 0; }
+
+.seeAllList li {
+  padding: 5px 0; }
+
+.primaryBt {
+  margin: 10px 0 5px;
+  width: 95%; }
+
+.primaryBt input {
+  font-size: 20px;
+  margin: 10px 0;
+  width: 100%; }
+
+.passCheck {
+  margin: 3px 10px 10px 0px; }
+
+ul.auto-fill-list {
+  overflow: hidden;
+  width: 100%;
+  padding: 1px;
+  border: 1px solid #CCC;
+  cursor: text;
+  font-size: 12px;
+  z-index: 999;
+  margin: 0;
+  background-color: #fff;
+  list-style-type: none;
+  clear: left;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+ul.auto-fill-list li {
+  list-style-type: none; }
+
+ul.auto-fill-list li input {
+  border: 0;
+  width: 94.5%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px 8px;
+  -webkit-appearance: caret; }
+
+li.auto-fill {
+  overflow: hidden;
+  height: auto !important;
+  height: 1%;
+  margin: 3px;
+  padding: 3px 5px;
+  background-color: #ECF3F6;
+  color: #000;
+  font-weight: bold;
+  cursor: default;
+  display: block; }
+
+li.auto-fill p {
+  float: left;
+  padding: 0;
+  margin: 0; }
+
+li.auto-fill span {
+  float: right;
+  color: #777;
+  cursor: pointer; }
+
+li.auto-fill-selected-list {
+  background-color: #3F88A0;
+  color: #fff; }
+
+li.auto-fill-selected-list span {
+  color: #bbb; }
+
+div.auto-fill-dropdown {
+  position: absolute;
+  width: 460px;
+  padding: 5px;
+  background-color: #fff;
+  overflow: hidden;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  cursor: default;
+  font-size: 12px;
+  font-family: Verdana;
+  z-index: 999999999999999999999999; }
+
+div.auto-fill-dropdown p {
+  margin: 0;
+  padding: 5px;
+  color: #777; }
+
+div.auto-fill-dropdown ul {
+  margin: 0;
+  padding: 0; }
+
+div.auto-fill-dropdown ul li {
+  background-color: #fff;
+  padding: 3px;
+  list-style-type: none; }
+
+div.auto-fill-dropdown ul li.auto-fill-dropdown-item {
+  background-color: #fafafa; }
+
+div.auto-fill-dropdown ul li.auto-fill-dropdown-item2 {
+  background-color: #fff; }
+
+div.auto-fill-dropdown ul li em {
+  font-weight: bold;
+  font-style: normal; }
+
+div.auto-fill-dropdown ul li.auto-fill-selected-dropdown-item {
+  background-color: #ecf3f6; }
+
+/* pulled in from post project */
+.formTitle {
+  font-size: 18px;
+  color: #333;
+  margin: 30px 0px 10px 0px; }
+
+div.errorMsg {
+  margin: 20px 0px;
+  width: 100%px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+div.errorMsg div {
+  background: #FDF4C1;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 14px;
+  color: #444;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-shadow: 0px 1px 1px #fff;
+  background: #fdf4c1 url(../images/frown.png) bottom right no-repeat;
+  min-height: 2.6em;
+  background-size: 4em auto; }
+
+div.errorMsg div ul {
+  font-weight: normal;
+  margin: 5px;
+  padding: 0px 20px;
+  color: #666; }
+
+input:invalid, input:-moz-ui-invalid {
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */ }
+
+/*space between fields */
+.inputSec {
+  margin-top: 10px; }
+
+/* input field title */
+.inputTitle {
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase; }
+
+/* nice text input background*/
+.txtInput {
+  border: 1px solid #ccc;
+  padding: 5px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #333; }
+
+.txtInput:hover {
+  border: 1px solid #C5DAED;
+  border-top: 1px solid #5794BF; }
+
+.txtInput:focus {
+  border: 1px solid #C5DAED;
+  border-top: 1px solid #5794BF; }
+
+.selectInput {
+  width: 97.0%;
+  border: 1px solid #ccc;
+  padding: 4px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #CCC;
+  height: 30px;
+  font-size: 14px; }
+
+.datePicker {
+  background: url(../images/datePicker.png) right no-repeat; }
+
+.priceInput {
+  background: url(../images/priceInput.png) no-repeat left white;
+  padding-left: 15px; }
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px; }
+
+input.txtInput {
+  width: 90%;
+  font-size: 16px;
+  padding: 10px 20px 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FCFCFC;
+  color: #333; }
+
+textarea.txtInput {
+  width: 90%;
+  font-size: 16px;
+  padding: 10px 20px 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #FCFCFC;
+  color: #333333; }
+
+/*styles for invalid*/
+input.txtInput:invalid {
+  background: #FDF4C1;
+  color: #900; }
+
+textarea.txtInput:invalid {
+  background: #FDF4C1;
+  color: #990000; }
+
+select.txtInput:invalid {
+  background: #FDF4C1;
+  color: #990000; }
+
+input.txtInput.invalid {
+  background: #FDF4C1;
+  color: #900; }
+
+textarea.txtInput.invalid {
+  background: #FDF4C1;
+  color: #990000; }
+
+select.selectInput.invalid {
+  background: #FDF4C1;
+  color: #990000; }
+
+select.selectInput:invalid {
+  background: #FDF4C1;
+  color: #990000; }
+
+/*styles for focus*/
+input.txtInput:focus {
+  background: #FFF;
+  color: #333333; }
+
+textarea.txtInput:focus {
+  background: #FFF;
+  color: #333333; }
+
+select.txtInput:focus {
+  background: #FFF;
+  color: #333; }
+
+select.selectInput:focus {
+  color: #333; }
+
+select.txtInput {
+  color: #CCC;
+  font-weight: normal;
+  -webkit-text-fill-color: #666; }
+
+select.txtInput option {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif; }
+
+select.txtInput option.selectFirst {
+  color: #ccc;
+  font-weight: normal; }
+
+select.txtInput.selectChanged {
+  color: #333; }
+
+::-webkit-validation-bubble {
+  background: #06C; }
+
+/*help/error popup messages*/
+.helpTxt {
+  max-width: 250px;
+  z-index: 3;
+  margin: 9px 0px 0px 25px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline;
+  position: absolute;
+  color: #FFF;
+  background: #77BED6;
+  padding: 5px; }
+
+.helpTxt b {
+  border-top: 5px transparent solid;
+  border-right: 5px #77BED6 solid;
+  border-bottom: 5px transparent solid;
+  border-left: 5px transparent solid;
+  position: absolute;
+  margin: 2px 0px 0px -14px; }
+
+.helpTxt.badHelp {
+  background: #900; }
+
+.helpTxt.badHelp b {
+  border-right: 5px #900 solid; }
+
+.helpBelow.badHelp {
+  color: #900;
+  display: block;
+  padding: 2px; }
+
+.instructionTxt {
+  color: #666;
+  font-size: 11px; }
+
+/* form validation */
+.signBad {
+  font-weight: bold;
+  font-size: 15px;
+  color: #900;
+  position: absolute;
+  margin: 10px 0px 0px 5px; }
+
+.signGood {
+  font-weight: bold;
+  font-size: 15px;
+  color: #090;
+  position: absolute;
+  margin: 10px 0px 0px 5px; }
+
+/*place holder */
+.placeHolder {
+  margin: 13px 12px;
+  position: absolute;
+  font-size: 16px;
+  color: #CCC;
+  text-align: left !important; }
+
+.placeHolderHov {
+  margin: 13px 12px;
+  position: absolute;
+  font-size: 16px;
+  color: #DDD;
+  text-align: left !important; }
+
+.placeHolderBad {
+  margin: 13px 12px;
+  position: absolute;
+  font-size: 16px;
+  color: #900;
+  text-align: left !important; }
+
+label {
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  vertical-align: top; }
+
+input[type="radio"]:checked + label {
+  color: #333; }
+
+input[type="checkbox"]:checked + label {
+  color: #333; }
+
+.dropCat {
+  margin: 5px 0px 0px 0px;
+  width: 480px; }
+
+.seeAllList {
+  overflow: scroll;
+  max-height: 200px;
+  overflow-x: hidden;
+  margin: 0px 0px 10px 0px;
+  background: #FAFAFA; }
+
+.seeAllList ul {
+  margin: 10px;
+  padding: 0px;
+  list-style: none; }
+
+.seeAllList li {
+  padding: 5px 0px; }
+
+#did-you-mean {
+  display: none;
+  padding: 5px; }
+
+#did-you-mean a {
+  text-decoration: underline;
+  cursor: pointer; }
+
+/*button format*/
+.primaryBt {
+  margin: 10px 0px 5px 0px;
+  width: 95%; }
+
+.primaryBt input {
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0px; }
+
+.formContainer {
+  width: 500px; }
+
+.formMargin {
+  margin-top: 20px; }
+
+.icon div {
+  float: left;
+  width: 400px; }
+
+.icon div:first-child {
+  width: 60px; }
+
+hr {
+  margin: 10px 30px 10px 10px; }
+
+.emailTable th {
+  text-align: left;
+  text-transform: uppercase;
+  color: #333;
+  border-bottom: 1px solid #CCC; }
+
+.emailTable th.right {
+  text-align: center;
+  width: 25px; }
+
+.emailTable td.right {
+  text-align: center;
+  width: 25px; }
+
+.emailTable tr td {
+  border-bottom: 1px solid #EEE;
+  padding: 8px;
+  font-size: 12px;
+  color: #666; }
+
+.userAccount {
+  padding: 5px; }
+
+.userAccount.infoneeded {
+  background: #FF0; }
+
+.userAccount img {
+  float: left;
+  margin-right: 10px; }
+
+.userAccount div.sn {
+  font-size: 15px;
+  font-weight: bold;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.userAccount div.location {
+  color: #999; }
+
+.userAccount div.set {
+  font-size: 11px; }
+
+.chats input.txtInput {
+  width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 20px 5px 5px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.chats .placeHolder {
+  margin: 9px 12px;
+  position: absolute;
+  font-size: 14px;
+  color: #999;
+  text-align: left !important; }
+
+.chats .placeHolderHov {
+  margin: 9px 12px;
+  position: absolute;
+  font-size: 14px;
+  color: #ccc;
+  text-align: left !important; }
+
+.chats .placeHolderBad {
+  margin: 9px 12px;
+  position: absolute;
+  font-size: 14px;
+  color: #900;
+  text-align: left !important; }
+
+.privacyBox {
+  background: #FAFAFA;
+  padding: 15px;
+  margin: 5px 0px 10px 0px;
+  font-size: 13px;
+  color: #666; }
+
+.privacyBox.hidden {
+  opacity: .30;
+  filter: alpha(opacity=30); }
+
+select.selectInput {
+  width: 97.0%;
+  border: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #CCC;
+  font-size: 14px;
+  padding: 10px 10px 10px 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  height: auto;
+  background: transparent url("/images/ddlSelectArrow.png") no-repeat right center;
+  background-color: #FCFCFC; }
+
+select.selectInput option {
+  color: #333; }
+
+select.selectInput.invalid {
+  color: #900;
+  background: #FDF4C1;
+  background-image: transparent url("/images/ddlSelectArrow.png") no-repeat right center; }
+
+.selectInput:hover {
+  border: 1px solid #C5DAED;
+  border-top: 1px solid #5794BF;
+  background-color: #FCFCFC; }
+
+.selectInput:focus {
+  border: 1px solid #C5DAED;
+  border-top: 1px solid #5794BF;
+  background-color: #FFF; }
+
+.comboLabelInput {
+  display: inline; }
+
+.comboLabelInput span {
+  border: 1px solid #ccc;
+  padding: 10.5px 6px;
+  font-size: 16px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.comboLabelInput input.txtInput {
+  border-left: none;
+  margin-left: -4px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-bottom-left-radius: 0px; }
+
